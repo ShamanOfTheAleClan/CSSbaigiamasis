@@ -1,0 +1,20 @@
+.faded {
+    pointer-events: none !important; 
+    opacity: 0.5 !important;
+    label::after, label::before {
+        content: none !important;
+    }
+}
+.hidden {
+    pointer-events: none !important;
+    opacity: 0 !important;
+}
+.removed {
+    display: none !important;
+}
+.checked {
+    &::before {
+        padding: 3px !important;
+    }
+    
+}
