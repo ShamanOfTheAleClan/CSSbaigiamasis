@@ -1,9 +1,7 @@
 {
   "name": "shaman-of-the-ale-clan",
   "version": "2019.10.22",
-  "dependencies": {
-  
-  },
+  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",

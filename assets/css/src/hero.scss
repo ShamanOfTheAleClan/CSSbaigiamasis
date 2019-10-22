@@ -1,0 +1,19 @@
+section:nth-of-type(1) {
+    background-color: #864f9c;
+    padding-top: 200px;
+    h1 {
+        color: white;
+        font-size: 32px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .button {
+        background-color: #eb7d4b;
+        border-bottom: 5px solid #d0606b;
+        margin-bottom: 100px;
+        &:active {
+            border-bottom: 0px solid transparent;
+        }
+    }
+}

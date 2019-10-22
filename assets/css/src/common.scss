@@ -5,3 +5,136 @@ $tablet: 768px;
 $laptop: 1024px;
 $laptopL: 1440px;
 $fourK: 2560px;
+
+*{
+    font-family: 'Montserrat';
+}
+h1 {
+
+}
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 4px;
+}
+h3 {
+    font-size:20pz;
+    font-weight: 500;
+
+}
+p {
+    font-size: 12px;
+    line-height: 1.35;
+    letter-spacing: 1px;
+}
+nav {
+    z-index: 10;
+    background-color: #864f9c;
+    .wrapper {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding:  55px 20px;
+    ul {
+        display: flex;
+    }
+    li {
+        margin: 0 10px;
+        padding: 10px 20px;
+        border-radius: 4px;
+        &:hover {
+            background-color: #633A79;
+            cursor: pointer;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-family: 'Montserrat';
+        }
+    }
+
+}
+.wrapper {
+    padding: 100px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+    color: white;
+    font-size: 16px;
+    width: 300px;
+    height: 70px;
+    cursor: pointer;
+    
+}
+.line {
+    background-color: #000000;
+    opacity: 0.15;
+    width: 90px;
+    height: 4px;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+    h2, .line {
+        margin-bottom: 15px;
+    }
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.content-item {
+    width: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+footer {
+    background-color: #334b8e;
+    .wrapper {
+        padding: 0;
+    }
+    ul {
+        display: flex;
+    }
+    a {
+        color: white;
+        font-family: "Montserrat";
+        font-size: 14px;
+
+    }
+    li {
+        padding: 20px;
+    }
+    li:hover {
+        cursor: pointer;
+        a {
+            color: #30b0e0;
+        }
+    }
+}
